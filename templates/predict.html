@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>تعرف علي اللهجه</h1>
+
+<form action="{{ url_for('Dialect_Predict')}}" method="post">
+  <label style="font-size:20pt;"> ادخل النص</label>
+  <input type="text" style="font-size:20pt;" name="input" maxlength="200">
+  <br>
+  <br>
+  <button type="submit" style="font-size:20pt;" class="btn btn-primary btn-block btn-large">ما هي اللهجه ؟</button>
+  {{ output }}
+</form>
+
+</body>
+</html>
