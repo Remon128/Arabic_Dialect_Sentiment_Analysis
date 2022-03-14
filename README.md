@@ -1,5 +1,5 @@
 # Arabic_Dialect_Sentiment_Analysis
-A ML/DL based system, able to analyze Arabic Tweets and Classifies it to different types of Arabic accents.
+A ML/DL based system working on SVM/BiLSTM, able to analyze Arabic Tweets and Classifies it to different types of Arabic accents.
 
 ![Arabic_Dialect_Classification](https://user-images.githubusercontent.com/24530726/158072356-7e5d3100-1ca8-4e98-9919-22c0e141c799.png)
 
